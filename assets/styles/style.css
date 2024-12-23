@@ -1,0 +1,1243 @@
+body {
+    margin: 0px;
+    ;
+}
+
+@font-face {
+    font-family: 'georgiaBold';
+    src: url(../fonts/georgiaBold.ttf);
+}
+
+@font-face {
+    font-family: 'georgiaReg';
+    src: url(../fonts/georgiaReg.ttf);
+}
+
+@font-face {
+    font-family: 'georgiaRegIt';
+    src: url(../fonts/georgiaRegIt.ttf);
+}
+
+@font-face {
+    font-family: 'georgiaBoldIt';
+    src: url(../fonts/georgiBoldIt.ttf);
+}
+
+.container {
+    width: 1200px !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+header {
+    background-color: #cbb59e;
+    height: 100px;
+}
+
+header .leftside {
+    gap: 25px;
+}
+
+header .leftside a {
+    font-family: "georgiaReg";
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: underline 0px #cbb59e !important;
+    text-underline-offset: -1px;
+    transition: 0.3s;
+}
+
+header .leftside a:hover {
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: underline 2px rgb(117, 117, 190) !important;
+    text-underline-offset: 2px;
+    transition: 0.3s;
+}
+
+header .rightside {
+    gap: 40px
+}
+
+header .rightside .location p {
+    margin: 0px;
+    font-family: "georgiaReg";
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.25;
+}
+
+header .rightside .sociallinks {
+    gap: 10px;
+}
+
+.section-welcome {
+    background-color: #cbb59e;
+    padding-bottom: 60px;
+}
+
+.section-welcome .container img {
+    border-radius: 50%;
+}
+
+.section-welcome .container .explanation {
+    font-weight: 800;
+    font-family: "georgiaBold";
+    letter-spacing: 2.5px;
+    font-size: 14px;
+    line-height: 1.25;
+    margin-bottom: 14px;
+}
+
+.section-welcome .container h5 {
+    font-weight: 700;
+    font-family: "georgiaBold";
+    font-size: 22px;
+    line-height: 1.25;
+    margin-bottom: 28px;
+}
+
+.section-welcome .container .descriptor {
+    font-weight: 400;
+    font-family: "georgiaReg";
+    font-size: 18px;
+    line-height: 1.55;
+    opacity: 0.85;
+    width: 90%;
+}
+
+.section-welcome .container a {
+    margin-top: 60px;
+    color: #ffffff !important;
+    background-color: #5199ff;
+    border-radius: 10px;
+    width: 150px;
+    height: 45px;
+    font-size: 14px;
+    font-family: "georgiaReg";
+    display: inline-block;
+    border: 0 none;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.section-welcome .container a p {
+    margin-bottom: 0;
+    letter-spacing: 2px;
+}
+
+.section-quote {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f2f2e9;
+}
+
+.section-quote .container h1 {
+    font-size: 28px;
+    font-family: "georgiaReg";
+    text-align: center;
+    font-weight: 300;
+}
+
+.section-info img {
+    width: 110px;
+    padding-right: 20px;
+    height: 110px;
+}
+
+.section-info .container h1 {
+    font-size: 22px;
+    line-height: 1.55;
+    font-family: "georgiaBold";
+    font-weight: 700;
+    color: #000000;
+}
+
+.section-info .container li {
+    font-size: 16px;
+    line-height: 1.55;
+    font-family: "georgiaReg";
+    font-weight: 400;
+    color: #000000;
+}
+
+.section-info .container p {
+    font-size: 16px;
+    line-height: 1.55;
+    font-family: "georgiaReg";
+    font-weight: 400;
+    color: #000000;
+}
+
+.section-info {
+    padding-top: 60px;
+    padding-bottom: 150px;
+}
+
+.section-price {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section-price .container .title h1 {
+    font-size: 20px;
+    line-height: 1.35;
+    font-weight: 700;
+    font-family: "georgiaBold";
+    margin-bottom: 0;
+    max-width: 80%;
+}
+
+.section-price .container .title p {
+    font-size: 18px;
+    line-height: 1.35;
+    font-family: "georgiaBold";
+    font-weight: 700;
+    text-align: end;
+    margin-bottom: 0;
+}
+
+.section-price .container .line {
+    height: 2px;
+    background-color: #5199ff;
+    opacity: 0.5;
+    margin-top: 10px;
+}
+
+.section-price .container .descriptor {
+    font-size: 16px;
+    line-height: 1.55;
+    font-family: "georgiaReg";
+    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.products {
+    margin-bottom: 30px;
+}
+
+.section-price .container h2 {
+    margin-bottom: 105px;
+    font-size: 42px;
+    line-height: 1.23;
+    font-family: "georgiaBold";
+    text-align: center;
+}
+
+.section-condictions .container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.section-condictions .container .content {
+    gap: 30px
+}
+
+.section-condictions {
+    background-color: #fcf8f2;
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+
+.section-condictions .container h1 {
+    margin-bottom: 90px;
+    text-align: center;
+    font-size: 42px;
+    line-height: 1.23;
+    font-family: "georgiaBold";
+}
+
+.section-condictions .container .all p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.55;
+    font-family: "georgiaReg";
+    text-align: justify;
+}
+
+.section-condictions .container .all h5 {
+    font-size: 16px;
+    line-height: 1.35;
+    font-family: "georgiaBold";
+}
+
+.carousel-control-next-icon {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(81, 153, 255);
+    margin-top: 0px;
+    border-radius: 100%
+}
+
+.carousel-control-prev-icon {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(16, 109, 240);
+    margin-top: 0px;
+    border-radius: 100%
+}
+
+.carousel-indicators .active {
+    background-color: black !important;
+    border-radius: 100px !important;
+    width: 6px !important;
+    height: 6px !important;
+}
+
+.carousel-indicators .bottom {
+    background-color: rgb(47, 65, 230) !important;
+    border-radius: 100% !important;
+    width: 6px !important;
+    height: 6px !important;
+}
+
+.carousel-indicators {
+    bottom: -80px !important;
+}
+
+.section-form {
+    background-image: url(../img/photo168728661_45623.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 930px;
+    background-position: center center;
+    background-attachment: scroll;
+    position: relative;
+
+}
+
+.filter {
+    background-color: rgba(9, 12, 20, 0.541);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.section-form .container h1 {
+    color: #fff;
+    margin-bottom: 40px;
+    line-height: 1.23;
+    font-family: "georgiaBold";
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 42px;
+    max-width: 60%;
+}
+
+.section-form .container p {
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 20px;
+    line-height: 1.55;
+    font-family: "georgiaReg";
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 300;
+}
+
+.section-form .container label {
+    padding-bottom: 5px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.55;
+    font-family: "georgiaReg";
+    font-weight: 300;
+    margin: 0;
+}
+
+.section-form .container input {
+    border-radius: 7px;
+    height: 56px;
+    padding: 0 20px;
+    width: 560px;
+}
+
+.section-form .container .form p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    line-height: 1.55;
+    font-family: "georgiaReg";
+    font-weight: 300;
+    max-width: 50%;
+}
+
+.section-form .container .btn-primary {
+    color: #ffffff;
+    background-color: #5199ff;
+    width: 560px !important;
+    height: 56px !important;
+    font-family: "georgiaBold";
+    font-size: 16px;
+}
+
+.section-news .container h1 {
+    margin-bottom: 90px;
+    text-align: center;
+    font-size: 42px;
+    font-family: "georgiaBold";
+    line-height: 1.23;
+}
+
+.section-news .card {
+    padding: 30px;
+    width: calc(33.333% - 40px);
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.178) 0px 0px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.section-news .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 1px 5px 15px;
+}
+
+.section-news .container h5 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    line-height: 1.35;
+    font-weight: 700;
+    font-family: "georgiaReg";
+}
+
+.section-news .container p {
+    font-size: 18px;
+    line-height: 1.55;
+    font-family: "georgiaReg";
+    margin-bottom: 40px;
+}
+
+.section-news .container a {
+    font-size: 16px;
+    color: #5199ff !important;
+}
+
+.section-news {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section-map {
+    background-color: #cbb59e;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: #fcf8f2;
+}
+
+.section-map h1 {
+    font-size: 42px;
+    margin-bottom: 30px;
+    line-height: 1.17;
+    font-family: "georgiaBold";
+}
+
+.section-map p {
+    font-size: 20px;
+    font-family: "georgiaReg";
+    line-height: 1.55;
+    margin: 0px;
+}
+
+.section-map .container .social {
+    margin-top: 30px;
+}
+
+.section-title {
+    background-image: url(../img/photo_2021-06-15_14-.jpg);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+.section-title h1 {
+    font-family: "georgiaBold";
+    letter-spacing: .5px;
+    color: #fff;
+    font-size: 72px;
+    line-height: 1.17;
+}
+
+.section-information .container {
+    max-width: 760px !important;
+}
+
+.section-information .container h1 {
+    font-size: 40px;
+    font-family: "georgiaBold";
+    padding-top: 8px;
+    padding-bottom: 3px;
+    line-height: 1.23;
+    text-align: center;
+}
+
+.section-information {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section-information .container h5 {
+    font-size: 24px;
+    line-height: 1.5;
+    font-family: "georgiaBold";
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.section-information .container p {
+    font-size: 20px;
+    line-height: 1.55;
+    font-family: "georgiaReg";
+    margin-bottom: 0;
+    text-align: justify;
+}
+
+.section-information .container .second {
+    padding-top: 30px;
+}
+
+.section-information .container h4 {
+    padding-top: 40px;
+    font-size: 24px;
+    line-height: 1.5;
+    font-family: "georgiaReg";
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-information .container h3 {
+    font-size: 20px;
+    line-height: 1.55;
+    font-family: "georgiaBold";
+    margin-bottom: 0;
+}
+
+.section-information .container li {
+    font-size: 20px;
+    font-family: "georgiaReg";
+    line-height: 1.55;
+}
+
+.section-book {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.section-book .container h2 {
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    font-family: "georgiaReg";
+    margin-bottom: 0;
+}
+
+.section-book .container h3 {
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    font-family: "georgiaReg";
+    margin-bottom: 0;
+}
+
+.section-book .container h1 {
+    margin-top: 100px;
+    font-size: 40px;
+    line-height: 1.23;
+    font-family: "georgiaBold";
+    margin-bottom: 40px;
+}
+
+.section-book .container h4 {
+    font-size: 24px;
+    line-height: 1.5;
+    font-family: "georgiaReg";
+}
+
+.section-book .container p {
+    margin-top: 60px;
+    font-size: 20px;
+    line-height: 1.55;
+    font-family: "georgiaReg";
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.section-book .container h3 .text-end {
+    align-items: end !important;
+}
+.section {
+    opacity: 0;
+    transform: translateY(150px);
+    transition: opacity 0.8s ease-out, transform 0.7s ease-out;
+}
+
+.section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media (max-width: 1200px) {
+    .section-book .container h4 {
+        font-size: 22px;
+        line-height: 1.5;
+        font-family: "georgiaReg";
+    }
+    
+    .section-book .container p {
+        margin-top: 60px;
+        font-size: 18px;
+        line-height: 1.55;
+        font-family: "georgiaReg";
+    }
+    .section-information .container li {
+        font-size: 18px;
+        font-family: "georgiaReg";
+        line-height: 1.55;
+    }
+
+    .section-information .container h3 {
+        font-size: 18px;
+        line-height: 1.55;
+        font-family: "georgiaBold";
+        margin-bottom: 0;
+    }
+
+    .section-information .container p {
+        font-size: 18px;
+        line-height: 1.55;
+        font-family: "georgiaReg";
+        margin-bottom: 0;
+    }
+
+    .section-information .container h4 {
+        padding-top: 40px;
+        font-size: 22px;
+        line-height: 1.5;
+        font-family: "georgiaReg";
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .section-title h1 {
+        font-family: "georgiaBold";
+        letter-spacing: .5px;
+        color: #fff;
+        font-size: 68px;
+        line-height: 1.17;
+    }
+
+    .section-news .container h1 {
+        margin-bottom: 90px;
+        text-align: center;
+        font-size: 38px;
+        font-family: "georgiaBold";
+        line-height: 1.23;
+    }
+
+    .section-news .container .all {
+        gap: 10px !important;
+    }
+
+    .section-news .container h5 {
+        margin-bottom: 10px;
+        font-size: 20px;
+        line-height: 1.35;
+        font-weight: 700;
+        font-family: "georgiaReg";
+    }
+
+    .section-news .container p {
+        font-size: 16px;
+        line-height: 1.55;
+        font-family: "georgiaReg";
+        margin-bottom: 40px;
+    }
+
+    .section-news .container a {
+        font-size: 16px;
+        color: #5199ff !important;
+    }
+
+    .section-welcome .container img {
+        width: 95%;
+    }
+
+    .section-price .container h2 {
+        margin-bottom: 105px;
+        font-size: 38px;
+        line-height: 1.23;
+        font-family: "georgiaBold";
+        text-align: center;
+    }
+
+    .section-price .container .title p {
+        font-size: 16px;
+        line-height: 1.35;
+        font-family: "georgiaBold";
+        font-weight: 700;
+        text-align: end;
+        margin-bottom: 0;
+    }
+
+    .section-price .container .descriptor {
+        font-size: 14px;
+        line-height: 1.55;
+        font-family: "georgiaReg";
+        font-weight: 400;
+        margin-top: 8px;
+        margin-bottom: 0px;
+    }
+
+    .section-condictions .container h1 {
+        margin-bottom: 90px;
+        text-align: center;
+        font-size: 38px;
+        line-height: 1.23;
+        font-family: "georgiaBold";
+    }
+
+    .section-condictions .container .all p {
+        margin-bottom: 20px;
+        font-size: 18px;
+        line-height: 1.55;
+        font-family: "georgiaReg";
+    }
+
+    .section-condictions .container .all h5 {
+        font-size: 14px;
+        line-height: 1.35;
+        font-family: "georgiaBold";
+    }
+
+    .section-form .container h1 {
+        color: #fff;
+        margin-bottom: 40px;
+        line-height: 1.23;
+        font-family: "georgiaBold";
+        text-align: center;
+        margin-bottom: 40px;
+        font-size: 38px;
+        max-width: 80%;
+    }
+
+    .section-news .card {
+        padding: 30px;
+        width: calc(33.333% - 10px);
+        border: none !important;
+        box-shadow: rgba(0, 0, 0, 0.178) 0px 0px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+
+    .section-form .container p {
+        color: #fff;
+        margin-bottom: 50px;
+        font-size: 18px;
+        line-height: 1.55;
+        font-family: "georgiaReg";
+        text-align: center;
+        margin-bottom: 50px;
+        font-weight: 300;
+    }
+
+    .section-form .container label {
+        padding-bottom: 5px;
+        color: #fff;
+        font-size: 18px;
+        line-height: 1.55;
+        font-family: "georgiaReg";
+        font-weight: 300;
+        margin: 0;
+    }
+
+    .section-form .container .form p {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 14px;
+        line-height: 1.55;
+        font-family: "georgiaReg";
+        font-weight: 300;
+        max-width: 50%;
+    }
+
+
+}
+
+@media (max-width: 992px) {
+    .section-map p {
+        font-size: 18px;
+        font-family: "georgiaReg";
+        line-height: 1.55;
+        margin: 0px;
+    }
+
+    .section-map h1 {
+        font-size: 26px;
+        margin-bottom: 30px;
+        line-height: 1.17;
+        font-family: "georgiaBold";
+    }
+
+    .first {
+        margin-bottom: 60px;
+    }
+
+    .section-map .container .all {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-news .container h1 {
+        margin-bottom: 90px;
+        text-align: center;
+        font-size: 42px;
+        font-family: "georgiaBold";
+        line-height: 1.23;
+    }
+
+    .section-news .container p {
+        font-size: 16px;
+        line-height: 1.55;
+        font-family: "georgiaReg";
+        margin-bottom: 30px;
+    }
+
+    .section-news .card {
+        padding: 30px;
+        width: 100%;
+        border: none !important;
+        box-shadow: rgba(0, 0, 0, 0.178) 0px 0px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+
+    .section-news .container .all {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .section-welcome .container img {
+        width: 90%;
+    }
+
+    .section-welcome {
+        padding-top: 60px;
+    }
+
+    header {
+        background-color: white;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    header .container .leftside {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    header .container .col-12 {
+        flex-direction: column;
+    }
+
+    header .container .rightside {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    header .rightside .location p {
+        text-align: center;
+    }
+
+    header .rightside .location {
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+
+    header .rightside .sociallinks {
+        justify-content: center;
+    }
+
+    .section-welcome .container .descriptor {
+        font-size: 16px;
+    }
+
+    .section-welcome .container a {
+        margin-top: 30px;
+    }
+
+    .section-info .container .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-info img {
+        width: 90px;
+        padding-right: 20px;
+        height: 90px;
+    }
+
+    .section-info .container h1 {
+        font-size: 20px;
+        line-height: 1.55;
+        font-family: "georgiaBold";
+        font-weight: 700;
+        color: #000000;
+    }
+
+    .section-info .container li {
+        font-size: 14px;
+        line-height: 1.55;
+        font-family: "georgiaReg";
+        font-weight: 400;
+        color: #000000;
+    }
+
+    .section-info .container p {
+        font-size: 14px;
+        line-height: 1.55;
+        font-family: "georgiaReg";
+        font-weight: 400;
+        color: #000000;
+    }
+
+    .section-price .container .main {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-book .container p {
+        margin-top: 60px;
+        font-size: 16px;
+        line-height: 1.55;
+        font-family: "georgiaReg";
+    }
+    .section-book .container h4 {
+        font-size: 20px;
+        line-height: 1.5;
+        font-family: "georgiaReg";
+    }
+    .section-book .container h1 {
+        margin-top: 100px;
+        font-size: 30px;
+        line-height: 1.23;
+        font-family: "georgiaBold";
+        margin-bottom: 40px;
+    }
+    .section-book .container h3 {
+        font-size: 22px;
+        line-height: 42px;
+        text-align: center;
+        font-family: "georgiaReg";
+        margin-bottom: 0;
+    }
+    .section-book .container{
+        max-width: 100% !important;
+    }
+    .section-book .container h2 {
+        font-size: 22px;
+        line-height: 42px;
+        text-align: center;
+        font-family: "georgiaReg";
+        margin-bottom: 0;
+    }
+    .section-information .container h5 {
+        font-size: 22px;
+        line-height: 1.5;
+        font-family: "georgiaBold";
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+
+    .section-information .container h1 {
+        font-size: 30px;
+        font-family: "georgiaBold";
+        padding-top: 8px;
+        padding-bottom: 3px;
+        line-height: 1.23;
+        text-align: center;
+    }
+
+    .section-information .container {
+        width: 100% !important;
+    }
+
+    .section-information .container li {
+        font-size: 16px;
+        font-family: "georgiaReg";
+        line-height: 1.55;
+    }
+
+    .section-information .container h3 {
+        font-size: 16px;
+        line-height: 1.55;
+        font-family: "georgiaBold";
+        margin-bottom: 0;
+    }
+
+    .section-information .container p {
+        font-size: 16px;
+        line-height: 1.55;
+        font-family: "georgiaReg";
+        margin-bottom: 0;
+    }
+
+    .section-information .container h4 {
+        padding-top: 30px;
+        font-size: 22px;
+        line-height: 1.5;
+        font-family: "georgiaReg";
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .section-title h1 {
+        font-family: "georgiaBold";
+        letter-spacing: .5px;
+        color: #fff;
+        font-size: 32px;
+        line-height: 1.17;
+    }
+
+    .section-map p {
+        font-size: 16px;
+        font-family: "georgiaReg";
+        line-height: 1.55;
+        margin: 0px;
+    }
+
+    .section-map h1 {
+        font-size: 24px;
+        margin-bottom: 30px;
+        line-height: 1.17;
+        font-family: "georgiaBold";
+    }
+
+    .section-news .container h5 {
+        margin-bottom: 10px;
+        font-size: 18px;
+        line-height: 1.35;
+        font-weight: 700;
+        font-family: "georgiaReg";
+    }
+
+    .section-news .container p {
+        font-size: 14px;
+        line-height: 1.55;
+        font-family: "georgiaReg";
+        margin-bottom: 40px;
+    }
+
+    .section-news .container h1 {
+        margin-bottom: 75px;
+        text-align: center;
+        font-size: 30px;
+        font-family: "georgiaBold";
+        line-height: 1.23;
+    }
+
+    .section-form .container input {
+        border-radius: 7px;
+        height: 56px;
+        padding: 0 20px;
+        width: 100% !important;
+    }
+
+    .section-form .container h1 {
+        color: #fff;
+        margin-bottom: 40px;
+        line-height: 1.23;
+        font-family: "georgiaBold";
+        text-align: center;
+        margin-bottom: 18px;
+        font-size: 30px;
+        max-width: 100%;
+    }
+
+    .section-form .container p {
+        color: #fff;
+        margin-bottom: 30px;
+        font-size: 16px;
+        line-height: 1.55;
+        font-family: "georgiaReg";
+        text-align: center;
+        margin-bottom: 50px;
+        font-weight: 300;
+    }
+
+    .section-form .container label {
+        padding-bottom: 5px;
+        color: #fff;
+        font-size: 16px;
+        line-height: 1.55;
+        font-family: "georgiaReg";
+        font-weight: 300;
+        margin: 0;
+    }
+
+    .section-form .container .form p {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 12px;
+        line-height: 1.55;
+        font-family: "georgiaReg";
+        font-weight: 300;
+        max-width: 100%;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .section-form .container .mb-3 {
+        width: 100%;
+    }
+
+    .section-welcome .container .row {
+        flex-direction: column;
+    }
+
+    .section-welcome .container img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .section-welcome .container .explanation {
+        font-weight: 800;
+        font-family: "georgiaBold";
+        letter-spacing: 2.5px;
+        font-size: 10px;
+        line-height: 1.25;
+        margin-bottom: 14px;
+    }
+
+    .section-welcome .container .descriptor {
+        font-size: 14px;
+    }
+
+    .section-quote .container h1 {
+        font-size: 22px;
+    }
+
+    .section-info img {
+        width: 75px;
+        padding-right: 20px;
+        height: 75px;
+    }
+
+    .section-info .container h1 {
+        font-size: 18px;
+        line-height: 1.55;
+        font-family: "georgiaBold";
+        font-weight: 700;
+        color: #000000;
+    }
+
+    .section-info .container li {
+        font-size: 12px;
+        line-height: 1.55;
+        font-family: "georgiaReg";
+        font-weight: 400;
+        color: #000000;
+    }
+
+    .section-info .container p {
+        font-size: 12px;
+        line-height: 1.55;
+        font-family: "georgiaReg";
+        font-weight: 400;
+        color: #000000;
+    }
+
+    .section-price .container .title h1 {
+        font-size: 20px;
+        line-height: 1.35;
+        font-weight: 700;
+        font-family: "georgiaBold";
+        margin-bottom: 0;
+        max-width: 80%;
+    }
+
+    .section-price .container .title p {
+        font-size: 14px;
+        line-height: 1.35;
+        font-family: "georgiaBold";
+        font-weight: 700;
+        text-align: end;
+        margin-bottom: 0;
+    }
+
+    .section-price .container .descriptor {
+        font-size: 12px;
+        line-height: 1.55;
+        font-family: "georgiaReg";
+        font-weight: 400;
+        margin-top: 8px;
+        margin-bottom: 0px;
+    }
+
+    .section-price .container h2 {
+        margin-bottom: 45px;
+        font-size: 30px;
+        line-height: 1.23;
+        font-family: "georgiaBold";
+        text-align: center;
+    }
+
+    .section-condictions .container h1 {
+        margin-bottom: 40px;
+        text-align: center;
+        font-size: 30px;
+        line-height: 1.23;
+        font-family: "georgiaBold";
+    }
+
+    .section-condictions .container .all p {
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 1.55;
+        font-family: "georgiaReg";
+    }
+
+    .section-condictions .container .all h5 {
+        font-size: 12px;
+        line-height: 1.35;
+        font-family: "georgiaBold";
+    }
+
+    .section-condictions .container .content {
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .container,
+    .container-fluid,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        width: 100% !important;
+        padding-right: calc(var(--bs-gutter-x)* .5);
+        padding-left: calc(var(--bs-gutter-x)* .5);
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
